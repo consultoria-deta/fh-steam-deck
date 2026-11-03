@@ -180,11 +180,14 @@ The games in SDR look flatter than in HDR, so this brings back some of the HDR l
 1. Deband
 2. Levels (black 0, white 250)
 3. [Blooming HDR](https://github.com/BlueSkyDefender/AstrayFX): bloom intensity 0.08/0.20, saturation 0.95
+   (**FH3 only**)
 4. [Local Contrast](https://github.com/Fubaxiusz/fubax-shaders) (limit 14)
 5. Vibrance (0.02)
 6. CAS sharpening (0.6)
 
-Both games use the same file; the two copies are identical. Deband, Levels, Vibrance and CAS come with the standard
+**FH2 leaves Blooming HDR off.** In FH2 any HDR-style effect on the SDR image burns it: Blooming HDR and FakeHDR
+both did, even turned well down. FH3 looks great with it. The FH2 file keeps it in the list, switched off, if you
+want to try it yourself. Deband, Levels, Vibrance and CAS come with the standard
 [reshade-shaders](https://github.com/crosire/reshade-shaders).
 
 ### HDR preset (without frame generation), FH2
